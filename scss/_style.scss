@@ -1,0 +1,12 @@
+html{
+  body{
+    height: 100%;
+    .site{
+      height: 100vh;
+      background-color: rgba(color('preto'), 0.15);
+      h1{
+        font-family: $roboto;
+      }
+    }
+  }
+}
