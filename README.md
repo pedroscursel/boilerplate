@@ -13,7 +13,7 @@ Uma coleção de setups focado no desenvolvimento web.
 ### Arquivos
 
 * .babelrc - Gerenciamento de pressets de compilação;
-* .gulpfile.babel.js - Gerenciamento das tarefas do boilerplate;
+* gulpfile.babel.js - Gerenciamento das tarefas do boilerplate;
 * package.json (package-lock.json) - Gerenciamento dos pacotes baixados;
 
 ### Instalação
