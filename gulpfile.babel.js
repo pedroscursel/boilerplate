@@ -95,7 +95,7 @@ gulp.task('jsmin', () => {
 
     return browserify({
         'entries': ['./js/scripts.js'],
-        'debug': false,
+        'debug': true,
         'transform': [
             babelify.configure({
                 'presets': ['es2015', 'react']
