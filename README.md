@@ -3,7 +3,7 @@ Uma coleção de setups focado no desenvolvimento web.
 
 ### Estrutura de pastas
 
-* Assets - Imagens e arquivos estáticos de ambiente;
+* ASSETS - Imagens e arquivos estáticos de ambiente;
 * SCSS - Organização dos arquivos Sass;
 * JAVASCRIPT - Armazenam-se os arquivos de scripts JS;
 * CSS - Arquivos Sass já compilados;
