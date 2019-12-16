@@ -1,5 +1,5 @@
 # Boilerplate Front End
-Uma coleção de setups focado no desenvolvimento web. Gerenciado com Gulp, Babel e pacotes via NPM.
+Uma coleção de setups focado no desenvolvimento web.
 
 ### Estrutura de pastas
 

@@ -18,4 +18,3 @@ $(function() {
 // importa bootstrap4 por modulos:
 import 'bootstrap/js/dist/util'
 import 'bootstrap/js/dist/modal'
-
