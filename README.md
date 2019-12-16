@@ -8,7 +8,7 @@ Uma coleção de setups focado no desenvolvimento web.
 * JAVASCRIPT - Armazenam-se os arquivos de scripts JS;
 * CSS - Arquivos Sass já compilados;
 * JS - Arquivos de scripts JS já compilados
-* Node_modules - Pacotes baixados pelo NPM
+* NODE_MODULES - Pacotes baixados pelo NPM
 
 ### Arquivos
 
