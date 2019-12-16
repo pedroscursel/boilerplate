@@ -1,4 +1,3 @@
-import critical from 'critical'
 import babelify from 'babelify'
 import browserSync from 'browser-sync'
 import browserify from 'browserify'
@@ -73,22 +72,6 @@ gulp.task('styles', () => {
 
 
 /* ----------------- */
-/* HTML
-/* ----------------- */
-gulp.task('html', ['cssmin'], () => {
-    return gulp.src('./*.html')
-    .pipe(critical.stream({
-        'base': 'build/',
-        'inline': true,
-        'extract': false,
-        'minify': true,
-        'css': ['./css/style.css']
-    }))
-    .pipe(gulp.dest('./'))
-})
-
-
-/* ----------------- */
 /* Cssmin
 /* ----------------- */
 gulp.task('cssmin', () => {
@@ -132,4 +115,4 @@ gulp.task('jsmin', () => {
 /* Taks
 /* ----------------- */
 gulp.task('default', ['development'])
-gulp.task('deploy', ['html', 'jsmin'])
+gulp.task('deploy', ['cssmin', 'jsmin'])
