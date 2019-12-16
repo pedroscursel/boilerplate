@@ -14,10 +14,10 @@ Uma coleção de setups focado no desenvolvimento web. Gerenciado com Gulp, Babe
 
 * .babelrc - Gerenciamento de pressets de compilação;
 * .gulpfile.babel.js - Gerenciamento das tarefas do boilerplate;
-* package.json - Gerenciamento dos pacotes baixados;
+* package.json (package-lock.json) - Gerenciamento dos pacotes baixados;
 
 ### Instalação
-Baixe o pacote aqui do GitHub e execute a instalação via terminal com o seguinte comando:
+Baixe o pacote do boilerplate aqui do GitHub e execute a instalação via terminal com o seguinte comando:
 ```sh
 npm install 
 ```
@@ -27,8 +27,11 @@ Dentro dessa estrutura de desenvolvimento, temos algumas tarefas de execução b
 ```sh
 gulp
 ```
-> Sobe toda a estrutura e levanta um servidor web baseado em node.
+> Atualiza toda a estrutura e levanta um servidor web usando browser sync
 ```sh
 gulp deploy
 ```
-> Entrega a versão compilada do código HTML, JS e SCSS
+> Entrega a versão compilada do código JavaScript e SCSS
+
+## Atualização e manutenção
+Ajuda é sempre bem vinda e agradeço quem tiver disposição de compartilhar melhorias nesse projeto de boilerplate. Fique a vontade para dar um fork e pushar eventuais ajustes e melhorias! Muito obrigado desde já, equipe PS WebDev. 
